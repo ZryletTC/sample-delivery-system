@@ -323,10 +323,6 @@
     <Folder Include="VISUs" />
   </ItemGroup>
   <ItemGroup>
-    <PlaceholderReference Include="LCLSVacuumLib">
-      <DefaultResolution>LCLSVacuumLib, * (SLAC)</DefaultResolution>
-      <Namespace>LCLSVacuumLib</Namespace>
-    </PlaceholderReference>
     <PlaceholderReference Include="Tc2_Standard">
       <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc2_Standard</Namespace>
@@ -344,13 +340,16 @@
     <LibraryReference Include="LCLS General,0.1.2,SLAC">
       <Namespace>LCLS_General</Namespace>
     </LibraryReference>
-    <LibraryReference Include="Tc2_EtherCAT,3.3.7.0,Beckhoff Automation GmbH">
+    <LibraryReference Include="LCLSVacuumLib,1.12.6969,SLAC">
+      <Namespace>LCLSVacuumLib</Namespace>
+    </LibraryReference>
+    <LibraryReference Include="Tc2_EtherCAT,3.3.13.0,Beckhoff Automation GmbH">
       <Namespace>Tc2_EtherCAT</Namespace>
     </LibraryReference>
-    <LibraryReference Include="Tc2_IoFunctions,3.3.8.0,Beckhoff Automation GmbH">
+    <LibraryReference Include="Tc2_IoFunctions,3.3.11.0,Beckhoff Automation GmbH">
       <Namespace>Tc2_IoFunctions</Namespace>
     </LibraryReference>
-    <LibraryReference Include="Tc2_MC2,3.3.15.0,Beckhoff Automation GmbH">
+    <LibraryReference Include="Tc2_MC2,3.3.37.0,Beckhoff Automation GmbH">
       <Namespace>Tc2_MC2</Namespace>
     </LibraryReference>
     <LibraryReference Include="Tc2_ModbusSrv,3.3.1.0,Beckhoff Automation GmbH">
@@ -359,10 +358,10 @@
     <LibraryReference Include="Tc2_SerialCom,3.3.6.0,Beckhoff Automation GmbH">
       <Namespace>Tc2_SerialCom</Namespace>
     </LibraryReference>
-    <LibraryReference Include="Tc2_SUPS,3.3.4.0,Beckhoff Automation GmbH">
+    <LibraryReference Include="Tc2_SUPS,3.3.6.0,Beckhoff Automation GmbH">
       <Namespace>Tc2_SUPS</Namespace>
     </LibraryReference>
-    <LibraryReference Include="Tc2_Utilities,3.3.17.0,Beckhoff Automation GmbH">
+    <LibraryReference Include="Tc2_Utilities,3.3.35.0,Beckhoff Automation GmbH">
       <Namespace>Tc2_Utilities</Namespace>
     </LibraryReference>
   </ItemGroup>
@@ -375,17 +374,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PlaceholderResolution Include="LCLSVacuumLib">
-      <Resolution>LCLSVacuumLib, 1.11.1 (SLAC)</Resolution>
-    </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_Standard">
-      <Resolution>Tc2_Standard, 3.3.1.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc2_Standard, 3.3.2.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_System">
-      <Resolution>Tc2_System, 3.4.15.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc2_System, 3.4.22.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc3_Module">
-      <Resolution>Tc3_Module, 3.3.12.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc3_Module, 3.3.21.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
   </ItemGroup>
   <ProjectExtensions>
